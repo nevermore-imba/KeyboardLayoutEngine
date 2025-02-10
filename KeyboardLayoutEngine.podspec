@@ -347,7 +347,7 @@ optional func defaultKeyboardDidPressReturnButton(defaultKeyboard: DefaultKeyboa
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "Keyboard/KeyboardLayoutEngine/*.swift", "Keyboard/CustomKeyboard/*.swift", "Keyboard/KeyPop/*.swift"
+  s.source_files  = "Keyboard/KeyboardLayoutEngine/*.swift", "Keyboard/CustomKeyboard/*.swift", "Keyboard/KeyPop/*.swift", "Keyboard/Shadow.swift"
 
   # s.public_header_files = "Classes/**/*.h"
 
@@ -388,6 +388,5 @@ optional func defaultKeyboardDidPressReturnButton(defaultKeyboard: DefaultKeyboa
   s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  s.dependency "Shadow"
-
+  
 end
